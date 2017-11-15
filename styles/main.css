@@ -25,45 +25,56 @@ p{
 
 .main{
   position:relative;
-  padding-left: 1%;
+  padding-left: 2%;
   padding-right: 30%;
-  padding-top: 1%;
+  padding-top: 2%;
   padding-bottom: 1%;
   color:black;
-  background-color: grey;
+  background-color: skyblue;
+  border-radius: 25px;
 }
 
 .blogs{
   position:relative;
-  padding-left:1%;
+  padding:2%;
+  padding-right:0%;
   color:white;
   background-color: #101010;
+  border-radius: inherit;
 }
 
 .year{
   position:relative;
-  padding-left:1%;
+  padding:2%;
+  padding-right:0%;
   color:black;
   background-color: #B0B0B0;
+  border-radius: inherit;
 }
 
 .month{
   position:relative;
-  padding-left:1%;
+  padding:2%;
+  padding-right:0%;
   color:black;
   background-color: #C0C0C0;
+  border-radius: inherit;
 }
 
 .posts{
   position:relative;
-  padding-left:0%;
+  padding:2%;
+  padding-right:0%;
   color:black;
   background-color: #D0D0D0;
+  border-radius: inherit;
 }
 
 .blogtext{
   position:relative;
-  padding-left:1%;
+  padding:2%;
+  padding-right:0%;
   color:black;
   background-color: #D0D0D0;
+  border-radius: inherit;
 }
