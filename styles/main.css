@@ -1,24 +1,69 @@
+body{
+  font-family:"Trebuchet MS", helvetica, sans-serif;
+  padding: 0%;
+}
+
 h1{
-  font-family:"helvetica";
   font-size:36;
 }
 
 h2{
-  font-family:"helvetica";
   font-size:30;
 }
 
 h3{
-  font-family:"helvetica";
   font-size:24;
 }
 
 h4{
-  font-family:"helvetica";
   font-size:20;
 }
 
 p{
-  font-family:"helvetica";
   font-size:20;
+}
+
+.main{
+  position:relative;
+  padding-left: 1%;
+  padding-right: 30%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color:black;
+  background-color: grey;
+}
+
+.blogs{
+  position:relative;
+  padding-left:1%;
+  color:white;
+  background-color: #101010;
+}
+
+.year{
+  position:relative;
+  padding-left:1%;
+  color:black;
+  background-color: #B0B0B0;
+}
+
+.month{
+  position:relative;
+  padding-left:1%;
+  color:black;
+  background-color: #C0C0C0;
+}
+
+.posts{
+  position:relative;
+  padding-left:0%;
+  color:black;
+  background-color: #D0D0D0;
+}
+
+.blogtext{
+  position:relative;
+  padding-left:1%;
+  color:black;
+  background-color: #D0D0D0;
 }
