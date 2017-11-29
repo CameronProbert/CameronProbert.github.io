@@ -1,6 +1,7 @@
 body{
   font-family:"Trebuchet MS", helvetica, sans-serif;
   padding: 0%;
+  position:relative;
 }
 
 h1{
@@ -26,7 +27,7 @@ p{
 .main{
   position:relative;
   padding-left: 2%;
-  padding-right: 30%;
+  padding-right: 2%;
   padding-top: 2%;
   padding-bottom: 1%;
   color:black;
@@ -77,4 +78,39 @@ p{
   color:black;
   background-color: #D0D0D0;
   border-radius: inherit;
+}
+
+.imgleft{
+  max-width:40%;
+}
+
+.imgright{
+  max-width:40%;
+}
+
+.imgbox{
+  width:100%;
+}
+
+.imgleft .imgbox{
+  float:left;
+}
+
+.imgright .imgbox{
+  float:right;
+}
+
+.textbox{
+  position:relative;
+  min-width:50%;
+}
+
+img{
+  width:100%;
+}
+
+hr{
+  width:80%;
+  float:centre;
+  padding:1px;
 }
