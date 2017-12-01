@@ -1,3 +1,11 @@
+html{
+  background: url(https://zealana.co.nz/assets/Uploads/bush-background2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body{
   font-family:"Trebuchet MS", helvetica, sans-serif;
   margin: 0px;
@@ -60,12 +68,16 @@ p{
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: stretch;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f5/Lambton_Harbour_and_the_Wellington_Waterfront.jpg);
-  background-position: center; 
-  background-size: cover:
 }
 
 .header{
+  height:10%;
+  width:100%;
+  padding: 10px;
+  background: rgba(220, 220, 220, 0.70);
+}
+
+.nav{
   
 }
 
@@ -75,11 +87,12 @@ p{
   justify-content: space-around;
   align-items: stretch;
   width:100%;
-  padding: 5px;
+  padding: 0px;
+  background: rgba(220, 220, 220, 0.95);
 }
 
-.contents > *{
-  background: rgba(220, 220, 220, 0.95);
+.contents > div{
+  padding: 10px;
 }
 
 .horizontalContainer{
