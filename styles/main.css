@@ -37,27 +37,27 @@ a:hover{
 }
 
 h1{
-  font-size:36;
+  font-size: 46px;
   font-variant:small-caps;
 }
 
 h2{
-  font-size:30;
+  font-size: 30px;
   font-variant:small-caps;
 }
 
 h3{
-  font-size:24;
+  font-size: 24px;
   font-variant:small-caps;
 }
 
 h4{
-  font-size:20;
+  font-size: 20px;
   font-variant:small-caps;
 }
 
 p{
-  font-size:20;
+  font-size: 20px;
   color:#808080;
 }
 
@@ -71,10 +71,11 @@ p{
 }
 
 .header{
-  height:10%;
+  height:15%;
   width:100%;
   padding: 10px;
-  background: rgba(220, 220, 220, 0.70);
+  background: rgba(220, 220, 220, 0.50);
+  color: white;
 }
 
 .nav{
@@ -92,7 +93,7 @@ p{
 }
 
 .contents > div{
-  padding: 10px;
+  padding: 0px 10px 0px 10px;
 }
 
 .horizontalContainer{
@@ -112,7 +113,7 @@ p{
 }
 
 .imgBox{
-  flex: 1 1 30%;
+  flex: 1 1 50%;
   align-self: center;
   flex-flow: column nowrap;
   justify-content: space-around;
@@ -131,8 +132,8 @@ p{
 }
 
 .textbox{
-  min-width:50%;
-  flex: 2 1 45%;
+  min-width:40%;
+  flex: 2 1 40%;
   align-self: center;
   margin: 2%;
 }
