@@ -1,0 +1,24 @@
+html{
+  background: url(https://zealana.co.nz/assets/Uploads/bush-background2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container > div{
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: #ce5000;
+}
+
+.title{
+  padding-left: 2rem;
+}
