@@ -4,7 +4,34 @@ html{
 }
 
 .container > div{
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(200, 200, 200, 0.7);
+}
+
+/**
+  Centring
+*/
+.centered-div, .centred-div{
+  margin: auto;
+}
+
+.centred-cont, .centered-cont{
+  align-content: center;
+  text-align: center;
+}
+
+.centered-img, .centred-img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+/**
+  Text
+*/
+.image-subtitle{
+  font-style: italic;
+  font-size: 1em;
 }
 
 a:link{
