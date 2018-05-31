@@ -1,0 +1,4 @@
+*.js
+*.jsx
+*.map
+node_modules
